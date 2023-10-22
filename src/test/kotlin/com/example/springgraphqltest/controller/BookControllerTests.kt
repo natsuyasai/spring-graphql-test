@@ -12,6 +12,7 @@ import org.springframework.test.context.TestExecutionListeners
 import org.springframework.test.context.junit.jupiter.SpringExtension
 import org.springframework.test.context.support.DependencyInjectionTestExecutionListener
 
+// 動いていない
 @GraphQlTest(BookController::class)
 class BookControllerTests {
     @Autowired
